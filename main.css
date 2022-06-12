@@ -1,0 +1,68 @@
+*{
+    font-family: Poppins;
+}
+
+.home{
+    background-image: url(./img/bg.jpg);
+    background-repeat: no-repeat;
+    /* background-position: ; */
+    background-size: cover;
+}
+
+.navb{
+    background-color: rgb(200, 200, 200);
+}
+
+.box{
+    position: absolute;
+    top: 12%;
+    left: 30%;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+
+}
+
+.lock{
+    width: 20px;
+    height: 20px;
+}
+
+.info{
+font-size: 12px;
+color: rgb(194, 191, 187);
+
+}
+
+.first{
+    padding: 30px;
+}
+
+.second{
+    padding: 30px;
+    
+}
+.comp{
+    height: 52%;
+    width: 40%;
+}
+
+.form{
+    margin-top: 18px;
+}
+
+.heading{
+    color: rgb(94, 209, 193);
+    padding: 10px;
+}
+
+.inpt{
+
+margin-bottom: 13px;
+
+}
+
+.submit{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}

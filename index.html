@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+<link rel="stylesheet" href="main.css">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"/>
+
+
+<body class="home">
+
+    <nav class="navb navbar fixed-top ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Growth Scribe</a>
+        </div>
+    </nav>
+
+
+    <div class="box row">
+        <div class="first card column" style="width: 21rem;">
+
+            <div class="card-body">
+                <h3 class="card-title">Get Everything You Need For Creating WordPress Websites.</h3>
+
+                <img src="./img/f.jpg" class="comp card-img-top" alt="..."></br>
+                <p class="card-text">All-in-one Multifunctional Subscribe Service Perfect for Launching All Kinds of
+                    WordPress Projects!</p>
+            </div>
+        </div>
+
+        <div class="second card column" style="width: 18rem;background-color: #303038;">
+
+            <div class="card-body">
+                <h5 class="heading card-title">SUBSCRIBE AND GET YOUR BONUS!</h5>
+                <form class="form" action="http://localhost:3001/" method="post">
+                    <div>
+                        <div>
+                            <input type="text" class="inpt form-control" placeholder="Email Address" name="Email" required>
+                        </div>
+                        <div>
+                            <input type="text" class="inpt form-control" placeholder="First name" name="firstName" required>
+                        </div>
+                        <div>
+                            <input type="text" class="inpt form-control" placeholder="Last name" name="lastName" required>
+                        </div>
+
+                        <div>
+                            <input type="text" class="inpt form-control" placeholder="Address" name="Address" required>
+                        </div>
+
+                        <button type="submit" class="submit btn btn-lg"
+                            style=" background-color: #38d39f;color: aliceblue;">ADD TO DATABASE</button>
+                    </div>
+                </form>
+
+                <div class="row">
+                    <div class="col-2">
+                        <img src="./img/lock.png" class="lock">
+                    </div>
+
+                    <div class="info col-9">
+                        <p>Your Information will never be shared with any third party</p>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
